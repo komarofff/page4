@@ -1,0 +1,199 @@
+.header {
+  position: relative;
+  grid-column: 1/15;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  width: 100%;
+}
+
+.header__banner {
+  max-width: 100%;
+  object-fit: contain;
+  z-index: 0;
+  grid-row: 1/1;
+  grid-column: 1/15;
+}
+/* HEADER TOPMENU + LOGO */
+.header__topmenu {
+  grid-row: 1/1;
+  grid-column: 3/13;
+  z-index: 1;
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.header__logo {
+  object-fit: contain;
+  max-width: 100%;
+  grid-row: 1/1;
+  grid-column: 1 / span 3;
+  z-index: 1;
+  justify-self: flex-start;
+}
+
+.header__topmenu-list {
+  grid-row: 1/1;
+  grid-column: 6/13;
+  justify-self: flex-end;
+  margin-top: 10px;
+}
+.header__topmenu-list ul {
+  max-width: 100%;
+  justify-self: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__topmenu-list ul li {
+  display: inline;
+}
+.header__topmenu-list_link {
+  margin: 0 30px;
+  text-decoration: none;
+  font-family: Teko;
+  font-size: 137.5%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.09;
+  letter-spacing: 0.55px;
+  text-align: left;
+  color: var(--color-white);
+}
+.header__topmenu-list_link:hover {
+  text-decoration: underline;
+}
+
+/* HEADER CONTENT */
+.header__content {
+  grid-row: 1/1;
+  grid-column: 2/14;
+  justify-self: center;
+  z-index: 1;
+  margin-top: 45.7%;
+  transform: translateY(-45.7%);
+  -webkit-transform: translateY(-45.7%);
+  -moz-transform: translateY(-45.7%);
+  -ms-transform: translateY(-45.7%);
+  -o-transform: translateY(-45.7%);
+}
+.header__content-title {
+  display: block;
+  max-width: 766px;
+  font-family: Barlow;
+  font-size: 500%;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7rem;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--color-white);
+}
+.header__content-subtitle {
+  text-align: center;
+  font-family: Barlow;
+  font-size: 450%;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7rem;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--color-white);
+}
+
+/* HEADER BLOCK */
+.header__block {
+  position: absolute;
+  top: 113%;
+  z-index: 1;
+  grid-row: 1;
+  grid-column: 3/13;
+  width: 100%;
+  height: 377px;
+  max-height: 100%;
+  padding: 45px 44px 58px 63px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0px 5px 29.6px 10.4px var(--shadow-color);
+  background-color: var(--color-white);
+  transform: translateY(-113%);
+  -webkit-transform: translateY(-113%);
+  -moz-transform: translateY(-113%);
+  -ms-transform: translateY(-113%);
+  -o-transform: translateY(-113%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__block-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__block-list-link {
+  background: url(../../img/header/ellipse-4.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.header__block-list-title {
+  text-transform: uppercase;
+  margin-top: 35px;
+  font-family: Teko;
+  font-size: 156%;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--font-color-darker);
+}
+.header__block-list-subtitle {
+  font-family: Futura;
+  font-size: 110%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--font-color-light);
+}
+.header__block-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__block-button {
+  width: 268px;
+  height: 59px;
+  padding: 21px 59px 21px 66px;
+  object-fit: contain;
+  border-radius: 5.2px;
+  background-color: var(--color-red);
+}
+.header__block-button-link {
+  text-decoration: none;
+  font-family: Teko;
+  font-size: 146%;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43rem;
+  letter-spacing: 2.35px;
+  text-align: center;
+  color: var(--color-white);
+}
