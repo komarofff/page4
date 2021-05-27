@@ -1,20 +1,21 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-*:hover{
-    outline: none;
+*:hover {
+  outline: none;
 }
-html{
-    font-size: var(--font-size);
-    font-family: Futura,Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--font-color-light);
+html {
+  font-size: var(--font-size);
+  font-family: Futura, Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--font-color-light);
 }
-.container{
-    width: 100%;
-    max-width: var(--container-width);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(14,1fr);
-    justify-items: center;
-    box-shadow: 0 0 20px var(--shadow-color);
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  justify-items: center;
+  box-shadow: 0 0 20px var(--shadow-color);
 }
+

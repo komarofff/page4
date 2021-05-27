@@ -137,6 +137,7 @@
   align-items: center;
 }
 .header__block-list-link {
+  cursor: pointer;
   background: url(../../img/header/ellipse-4.png) no-repeat;
   background-position: center;
   background-size: contain;
@@ -146,6 +147,14 @@
   align-items: center;
   flex-grow: 1;
   align-self: stretch;
+}
+.header__block-list-link:hover .header__block-list-image {
+    filter:grayscale(0.01) brightness(100%);
+    -webkit-filter:grayscale(0.01) brightness(100%);
+}
+.header__block-list-image {
+  filter:grayscale(.95) brightness(140%);
+  -webkit-filter:grayscale(.95) brightness(140%);
 }
 .header__block-list-title {
   text-transform: uppercase;
@@ -176,31 +185,4 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-.header__block-button {
-  width: 268px;
-  height: 59px;
-  padding: 21px 59px 21px 66px;
-  object-fit: contain;
-  border-radius: 5.2px;
-  background-color: var(--color-red);
-  border: 1px solid var(--color-red);
-}
-.header__block-button-link {
-  position: relative;
-  text-decoration: none;
-  font-family: Teko;
-  font-size: 146%;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.43rem;
-  letter-spacing: 2.35px;
-  text-align: center;
-  color: var(--color-white);
-}
-.header__block-button-link::after {
-  position: absolute;
-  content: url(../../img/header/arrow-right.png);
-  left: 20px;
 }
