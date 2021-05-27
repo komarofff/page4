@@ -184,8 +184,10 @@
   object-fit: contain;
   border-radius: 5.2px;
   background-color: var(--color-red);
+  border: 1px solid var(--color-red);
 }
 .header__block-button-link {
+  position: relative;
   text-decoration: none;
   font-family: Teko;
   font-size: 146%;
@@ -196,4 +198,9 @@
   letter-spacing: 2.35px;
   text-align: center;
   color: var(--color-white);
+}
+.header__block-button-link::after {
+  position: absolute;
+  content: url(../../img/header/arrow-right.png);
+  left: 20px;
 }
