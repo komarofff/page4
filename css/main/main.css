@@ -1,44 +1,74 @@
-.main{
-    grid-column: 1/15;
-    width: 100%;
-    margin-top: 100px;
+.main {
+  grid-column: 1/15;
+  width: 100%;
+  margin-top: 100px;
 }
-.main section{
-    grid-column: 1/15;
-    width: 100%;
+.main section {
+  grid-column: 1/15;
+  width: 100%;
 }
-.main__people-blocks{
-    background: var(--color-white);
+.main__people-blocks {
+  background: var(--color-white);
+  margin-top: 99px;
 }
-.main__blocks{
-    grid-column: 3/13;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 96px;
+.main__blocks {
+  margin-top: 80px;
+  grid-column: 3/13;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 96px;
 }
-.main__people-block{
-    align-self: stretch;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+.main__people-block {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
-.main__people-image{
-    width: 109px;
-    height:109px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.main__people-image {
+  width: 109px;
+  height: 109px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 /* second main block */
-.main__description-blocks{
-    background:var(--color-gray);
-    height: 640px;
+.main__description-blocks {
+  background: var(--color-gray);
+  height: 640px;
+  display: flex;
+}
+
+.main__description-block-right {
+  grid-column: 3/14;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__description-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 40%;
+}
+.main__image-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 60%;
 }
