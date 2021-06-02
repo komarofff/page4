@@ -1,7 +1,7 @@
 .main {
   grid-column: 1/15;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 8%;
 }
 .main section {
   grid-column: 1/15;
@@ -9,7 +9,7 @@
 }
 .main__people-blocks {
   background: var(--color-white);
-  margin-top: 99px;
+ 
 }
 .main__blocks {
   margin-top: 80px;
@@ -42,33 +42,39 @@
 }
 /* second main block */
 .main__description-gray-block {
+  
   background: var(--color-gray);
-  height: 640px;
+ 
   max-height: 100%;
   display: flex;
 }
 .main__description-white-block {
   background: var(--color-white);
-  height: 640px;
-  max-height: 100%;
+  
   display: flex;
 }
 
 .main__description-block-right {
   grid-column: 3/14;
-  display: flex;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-gap:10px;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 .main__description-block-left {
   grid-column: 2/13;
-  display: flex;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-gap:10px;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 .main__description-block {
   display: flex;
@@ -104,8 +110,9 @@
 
 /* red section - testimonials */
 .main__testimonials-block {
+  
   background: var(--color-red);
-  height: 790px;
+  
   max-height: 100%;
   display: flex;
 }
@@ -135,8 +142,8 @@
 
 /*  section - advvantages */
 .main__advantages {
-  padding-top: 118px;
-  padding-bottom: 156px;
+  /* padding-top: 118px;
+  padding-bottom: 156px; */
   background: var(--color-white);
   /* height: 600px; */
   max-height: 100%;
@@ -157,6 +164,7 @@
   align-items: center;
 }
 .main__advantages-block {
+  padding:10px;
   max-width: 540px;
   display: flex;
   flex-direction: column;
@@ -165,8 +173,12 @@
   flex-grow: 1;
   align-self: stretch;
 }
+.advantages-block-image{
+  margin-bottom: 39px;
+}
 /* main inquire */
 .main__inquire {
+  /* position: relative; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -174,24 +186,25 @@
   align-items: center;
 }
 .inquire-background {
-  width: 100%;
+  
+  /* width: 100%;
   height: 679px;
-  max-height: 100%;
+  min-height: 100%; */
   background: url(../../img/main/cameron-venti-fp-kn-ao-cf-6-m-unsplash-copy.jpg)
     no-repeat;
   background-size: cover;
-  /* filter: brightness(40%);
-  -webkit-filter: brightness(40%); */
+  object-fit: contain;
 }
 .main__inquire-area {
+  margin-top: 30px;
   width: 100%;
   grid-column: 3/13;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:10px;
 }
 .main__inquire-block {
+  padding:5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,6 +215,7 @@
 .red-circle {
   position: relative;
   margin: 50px 0;
+  max-width: 100%;
 }
 .white-circle {
   width: 59px;
