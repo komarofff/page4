@@ -176,6 +176,9 @@
 .advantages-block-image{
   margin-bottom: 39px;
 }
+.advantages-block-stripe{
+  display: block;
+}
 /* main inquire */
 .main__inquire {
   /* position: relative; */
