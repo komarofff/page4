@@ -4,10 +4,15 @@
 *:hover {
   outline: none;
 }
+::after,::before{
+  margin:0;
+  padding:0;
+}
 html {
   font-size: var(--font-size);
   font-family: Futura, Verdana, Geneva, Tahoma, sans-serif;
   color: var(--font-color-light);
+  background: var(--color-white);
 }
 .container {
   width: 100%;
@@ -18,4 +23,62 @@ html {
   justify-items: center;
   box-shadow: 0 0 20px var(--shadow-color);
 }
-
+.grid {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  justify-items: center;
+}
+.h2{
+  font-family: Teko;
+  font-size: 375%;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--font-color-dark);
+}
+.h3 {
+  text-transform: uppercase;
+  margin-top: 35px;
+  font-family: Teko;
+  font-size: 156%;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--font-color-darker);
+  margin-bottom:0;
+}
+.text{
+  font-family: Futura;
+  font-size: 110%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--font-color-light);
+}
+.small-text{
+  max-width: 287px;
+  font-family: Futura;
+  font-size: 106%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.68;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--font-color-light);
+}
+.margin-both{
+  margin: 0 70px;
+}
