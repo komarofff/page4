@@ -23,6 +23,7 @@
   margin-bottom: 96px;
 }
 .main__people-block {
+  max-width: 287px;
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -40,14 +41,29 @@
   -o-border-radius: 50%;
 }
 /* second main block */
-.main__description-blocks {
+.main__description-gray-block {
   background: var(--color-gray);
   height: 640px;
+  max-height: 100%;
+  display: flex;
+}
+.main__description-white-block {
+  background: var(--color-white);
+  height: 640px;
+  max-height: 100%;
   display: flex;
 }
 
 .main__description-block-right {
   grid-column: 3/14;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__description-block-left {
+  grid-column: 2/13;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -61,14 +77,179 @@
   align-items: flex-start;
   align-self: stretch;
   flex-grow: 1;
-  flex-basis: 40%;
+  flex-basis: 43%;
 }
-.main__image-block {
+.main__image-block-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 57%;
+}
+.main__image-block-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 57%;
+}
+.main__description-image {
+  width: 559px;
+  max-width: 100%;
+}
+
+/* red section - testimonials */
+.main__testimonials-block {
+  background: var(--color-red);
+  height: 790px;
+  max-height: 100%;
+  display: flex;
+}
+.main__testimonials-slider {
+  grid-column: 4/12;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.main__testimonials-slider-block {
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-self: stretch;
+}
+.testimonials-small-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/*  section - advvantages */
+.main__advantages {
+  padding-top: 118px;
+  padding-bottom: 156px;
+  background: var(--color-white);
+  /* height: 600px; */
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__advantages-area {
+  margin-top: 78px;
+  width: 100%;
+  grid-column: 2/14;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__advantages-block {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
-  flex-basis: 60%;
+  align-self: stretch;
+}
+/* main inquire */
+.main__inquire {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inquire-background {
+  width: 100%;
+  height: 679px;
+  max-height: 100%;
+  background: url(../../img/main/cameron-venti-fp-kn-ao-cf-6-m-unsplash-copy.jpg)
+    no-repeat;
+  background-size: cover;
+  /* filter: brightness(40%);
+  -webkit-filter: brightness(40%); */
+}
+.main__inquire-area {
+  width: 100%;
+  grid-column: 3/13;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__inquire-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  align-self: stretch;
+}
+.red-circle {
+  position: relative;
+  margin: 50px 0;
+}
+.white-circle {
+  width: 59px;
+  height: 59px;
+  background: var(--color-white);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -223px;
+  margin-left: -149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-transform: uppercase;
+  font-family: Teko;
+  font-size: 26.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #3b3b3b;
+}
+/* main care */
+.main__care {
+  background: var(--color-gray);
+  padding: 30px 0 0 0;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__care-area {
+    padding:80px 0;
+  position: relative;
+  width: 100%;
+  grid-column: 3/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big-logo{
+    position: absolute;
+    bottom:0;
+    max-width: 100%;
 }

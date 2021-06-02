@@ -74,13 +74,13 @@
   z-index: 2;
   position: absolute;
   content: url("../img/header/arrow-right.png");
-  right: 40px;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
+  right: 30px;
+  top: 57%;
+  transform: translateY(-57%);
+  -webkit-transform: translateY(-57%);
+  -moz-transform: translateY(-57%);
+  -ms-transform: translateY(-57%);
+  -o-transform: translateY(-57%);
 }
 .small-button-link:hover {
   background: var(--color-white);
