@@ -1,5 +1,5 @@
 :root {
-  --container-width: 1595px;
+  --container-width: 100%;
   --shadow-color: rgba(0, 0, 0, 0.03);
   --color-black: #000;
   --color-white: #fff;
