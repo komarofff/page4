@@ -171,6 +171,11 @@ p {
   justify-content: center;
   align-items: center;
 }
+.row-between2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .stripe::after{
   content: '|';
   margin: 0 20px;

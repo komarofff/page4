@@ -321,6 +321,7 @@ REQUEST PAGE
   width: 100%;
 }
 .products-form {
+  margin-bottom: 20px;
   background: var(--color-white);
   padding: 70px;
   border-radius: 4px;
