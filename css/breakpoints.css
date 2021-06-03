@@ -5,6 +5,9 @@
   .main {
     margin-top: 0;
   }
+  .grid {
+    width: 1920px;
+}
 }
 @media (max-width: 1460px) {
   .header__topmenu,
