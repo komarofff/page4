@@ -12,6 +12,11 @@
     grid-column: 2/14;
   }
 }
+@media(max-width:1336px){
+  .main {
+    margin-top: calc(200px + 7%);
+  }
+}
 @media (max-width: 1212px) {
   .white-circle {
     margin-top: -245px;
@@ -29,7 +34,7 @@
     -o-border-radius: 0;
   }
   .main {
-    margin-top: calc(200px + 7%);
+    margin-top: calc(200px + 14%);
   }
 }
 @media (max-width: 1077px) {
@@ -84,6 +89,9 @@
   .white-circle {
     margin-top: -269px;
   }
+  .main {
+    margin-top: calc(200px + 18%);
+  }
 }
 @media (max-width: 900px) {
   .header__content-title {
@@ -113,6 +121,9 @@
   }
   .white-circle {
     margin-top: -197px;
+  }
+  .main__testimonials-slider-block{
+    padding:0 10px;
   }
 }
 @media (max-width: 816px) {
