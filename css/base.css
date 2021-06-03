@@ -16,6 +16,7 @@ html {
   background: var(--color-white);
 }
 .container {
+ 
   width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;

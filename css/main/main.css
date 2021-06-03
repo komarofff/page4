@@ -110,13 +110,13 @@
 
 /* red section - testimonials */
 .main__testimonials-block {
-  
-  background: var(--color-red);
-  
+  overflow-x: hidden;
+  background: var(--color-red);  
   max-height: 100%;
   display: flex;
 }
 .main__testimonials-slider {
+  overflow: hidden;
   grid-column: 4/12;
   display: flex;
   flex-basis: 100%;
