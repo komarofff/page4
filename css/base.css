@@ -95,6 +95,7 @@ p {
   
 }
 .big-text {
+  max-width: 900px;
   margin-top:28px;
   font-family: Futura;
   font-size: 137.5%;
