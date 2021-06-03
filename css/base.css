@@ -150,6 +150,7 @@ p {
 .blue{
   color: var(--color-blue);
   margin-top: 50px;
+  cursor: pointer;
 }
 .bottom-margin-none{
   margin-bottom: 0;

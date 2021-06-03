@@ -9,7 +9,9 @@
   .main__description-block-right,
   .main__description-block-left,
   .request__blocks,
-  .request__product-forms {
+  .request__product-forms,
+  .request__destination,
+  .request-header-content {
     width: 100%;
     grid-column: 2/14;
   }
@@ -26,8 +28,8 @@
   .white-circle {
     margin-top: -245px;
   }
-  .products-form{
-    padding:20px;
+  .products-form {
+    padding: 20px;
   }
 }
 @media (max-width: 1200px) {
@@ -63,7 +65,8 @@
   .main__description-block-right,
   .main__description-block-left,
   .request__blocks,
-  .request__product-forms {
+  .request__product-forms,
+  .request__destination {
     width: 100%;
     grid-column: 1/15;
   }

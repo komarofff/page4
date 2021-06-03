@@ -341,7 +341,7 @@ REQUEST PAGE
 .request-little-input-text {
   margin-left: 20px;
   margin-right: 15px;
-  padding-left: 5px;
+  padding-left: 10px;
   margin-top: 14px;
   max-width: 539px;
   width: 79px;
@@ -356,9 +356,22 @@ REQUEST PAGE
   line-height: 1.67;
   letter-spacing: normal;
   text-align: left;
+  color: var(--font-color-darker);
+}
+::-webkit-input-placeholder { /* Chrome */
+  color:var(--input-color);
+}
+:-ms-input-placeholder { /* IE 10+ */
   color: var(--input-color);
 }
-
+::-moz-placeholder { /* Firefox 19+ */
+  color: var(--input-color);
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: var(--input-color);
+  opacity: 1;
+}
 .radio{
     position: absolute;
     z-index: -1;
@@ -402,4 +415,10 @@ REQUEST PAGE
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+}
+.del_product{
+  cursor: pointer;
+}
+.destination-form > label{
+  margin-right: 30px;
 }
