@@ -98,3 +98,15 @@
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
+.small-button-link:hover::after {
+  z-index: 2;
+  position: absolute;
+  content: url("../img/header/arrow-right-red.png");
+  right: 30px;
+  top: 57%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}

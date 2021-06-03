@@ -153,16 +153,16 @@
   margin:10px; 
 }
 .header__block-list-link:hover .header__block-list-image {
-    /* filter:grayscale(0.01) brightness(100%);
-    -webkit-filter:grayscale(0.01) brightness(100%); */
+    filter:grayscale(0.01) brightness(100%);
+    -webkit-filter:grayscale(0.01) brightness(100%);
 }
 .header__block-list-image {
   height: 72px;
   max-height: 100%;
   max-width: 100%;
   margin:10px;
-  /* filter:grayscale(.95) brightness(140%);
-  -webkit-filter:grayscale(.95) brightness(140%); */
+  filter:grayscale(.95) brightness(140%);
+  -webkit-filter:grayscale(.95) brightness(140%);
 }
 .header__block-list-title {
   text-transform: uppercase;
