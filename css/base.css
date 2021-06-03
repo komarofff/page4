@@ -147,6 +147,10 @@ p {
 .white{
   color: var(--color-white);
 }
+.blue{
+  color: var(--color-blue);
+  margin-top: 50px;
+}
 .bottom-margin-none{
   margin-bottom: 0;
     padding-bottom: 0;
