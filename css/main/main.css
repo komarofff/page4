@@ -355,11 +355,9 @@ REQUEST PAGE
   line-height: 1.67;
   letter-spacing: normal;
   text-align: left;
-  color: #a3a3a3;
+  color: var(--input-color);
 }
-input[type="radio"]{
-  margin: 0 10px 0 10px;
-}
+
 .radio{
     position: absolute;
     z-index: -1;
@@ -378,7 +376,7 @@ input[type="radio"]{
   height: 10px;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 1px solid #adb5bd;
+  border: 1px solid var(--radio-color);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
