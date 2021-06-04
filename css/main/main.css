@@ -177,9 +177,12 @@
 }
 .advantages-block-image {
   margin-bottom: 39px;
+  max-width: 86px;
 }
 .advantages-block-stripe {
   display: block;
+  height: 426px;
+  max-height: 100%;
 }
 /* main inquire */
 .main__inquire {
@@ -444,7 +447,7 @@ REQUEST PAGE
 }
 /* CHECK PAGES */
 .check__block_2_column {
-  grid-column: 4/12;
+  grid-column: 3/13;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -452,7 +455,7 @@ REQUEST PAGE
 }
 .check_block {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 18px;
   align-items: flex-start;
 }
@@ -512,7 +515,7 @@ REQUEST PAGE
   grid-column-gap: 70px;
 }
 .price-inner-block {
-  
+  margin-top:1px;
 }
 .price-inner-block:nth-child(1) > .h2{
   justify-items: flex-end;
